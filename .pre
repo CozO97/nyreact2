@@ -1,0 +1,2 @@
+# Copy all CSS/JS files in src/**/* into src/
+find ./src -type f \( -name '*.css' -or -name '*.js' \) -exec cp {} ./src \;

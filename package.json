@@ -1,0 +1,30 @@
+{
+  "name": "nytimesreact",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9",
+    "morgan": "^1.8.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.12",
+    "webpack": "^3.5.5"
+  },
+  "scripts": {
+    "prestart": "bash ./.pre",
+    "start": "react-scripts start",
+    "poststart": "bash ./.post",
+    "prebuild": "bash ./.pre",
+    "build": "react-scripts build",
+    "postbuild": "bash ./.post",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
